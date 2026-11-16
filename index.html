@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign-up form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <div class="logo-area">
+        <div>
+            <img>
+            <div>ODIN</div>
+        </div>
+    </div>
+
+    <div class="input-area">
+        <div class="page-descriptor"></div>
+        <div class="input-header">Let's do this!</div>
+        <form class="sign-up-form" action="example.com/path" method="post">
+            <div class="input-group">
+
+                <input type="text" id="first-name" placeholder="Loki" name="first-name">
+                <label for="first-name">First Name:</label> 
+
+                <input type="text" id="last-name" placeholder="Odinson" name="last-name">
+                <label for="last-name">Last Name:</label>
+                
+                <input type="password" id="password" name="password">
+                <label for="password">Password:</label>
+                
+                <input type="password" id="confirm-password" name="confirm-password">
+                <label for="confirm-password">Confirm Password:</label>
+
+            </div>
+
+            <div class="account-buttons">
+                <button type="submit">Create Account</button>
+                <div>Already have an account? <a href="">Log in</a></div>
+            </div>
+
+        </form>
+    </div>
+</body>
+</html>
