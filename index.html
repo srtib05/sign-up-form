@@ -9,29 +9,55 @@
 </head>
 <body>
     <div class="logo-area">
-        <div>
-            <img>
-            <div>ODIN</div>
+        <div class="name-area">
+            <img width="70px" src="https://raw.githubusercontent.com/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png">
+            ODIN
         </div>
+        <div class="credit">Photo by Degleex Ganzorig on <a href="https://unsplash.com/photos/forest-during-daytime-wQImoykAwGs">Unsplash</a></div>
     </div>
 
     <div class="input-area">
-        <div class="page-descriptor"></div>
-        <div class="input-header">Let's do this!</div>
+        <div class="page-descriptor">
+            <p>
+                This is not a real online service! You know you need something like this in
+                your life to help you realize your deepest dreams. Sign up now to get started.
+            </p>
+            <p>You know you want to.</p>
+            <p>Let's do this!</p>
+        </div>
+
         <form class="sign-up-form" action="example.com/path" method="post">
             <div class="input-group">
-
-                <input type="text" id="first-name" placeholder="Loki" name="first-name">
-                <label for="first-name">First Name:</label> 
-
-                <input type="text" id="last-name" placeholder="Odinson" name="last-name">
-                <label for="last-name">Last Name:</label>
                 
-                <input type="password" id="password" name="password">
-                <label for="password">Password:</label>
-                
-                <input type="password" id="confirm-password" name="confirm-password">
-                <label for="confirm-password">Confirm Password:</label>
+                <div class="pair">
+                    <label for="first-name">First Name:</label> 
+                    <input type="text" id="first-name" placeholder="Loki" name="first-name">
+                </div>
+
+                <div class="pair">
+                    <label for="last-name">Last Name:</label>
+                    <input type="text" id="last-name" placeholder="Odinson" name="last-name">                                                
+                </div>
+
+                <div class="pair">
+                    <label for="email">Email:</label> 
+                    <input type="email" id="email" name="email">
+                </div>
+
+                <div class="pair">
+                    <label for="phone-number">Phone Number:</label> 
+                    <input type="tel" id="phone-number" name="phone-number">
+                </div>
+
+                <div class="pair">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>   
+                </div>
+
+                <div class="pair">
+                    <label for="confirm-password">Confirm Password:</label>
+                    <input type="password" id="confirm-password" name="confirm-password" required>
+                </div>                       
 
             </div>
 
